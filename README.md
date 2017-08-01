@@ -1,7 +1,7 @@
 # milkt-react-native-starkit
 react native项目的startkit脚手架工具
 
-## 使用create-react-native-app作为脚手架工具
+## create-react-native-app 脚手架文档
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
@@ -222,3 +222,9 @@ There are a few steps you may want to take to troubleshoot these kinds of errors
 If you're not able to scan the QR code, make sure your phone's camera is focusing correctly, and also make sure that the contrast on the two colors in your terminal is high enough. For example, WebStorm's default themes may [not have enough contrast](https://github.com/react-community/create-react-native-app/issues/49) for terminal QR codes to be scannable with the system barcode scanners that the Expo app uses.
 
 If this causes problems for you, you may want to try changing your terminal's color theme to have more contrast, or running Create React Native App from a different terminal. You can also manually enter the URL printed by the packager script in the Expo app's search bar to load it manually.
+
+## 在native-app中router方案的调整
+
+原有的router方案在native环境中不能被支持，为了解决类似的问题引入了`react-navigation`作为router的替代方案
+
+关于`react-navigation`的内容参考文档和网站 - [https://reactnavigation.org/](https://reactnavigation.org/)
