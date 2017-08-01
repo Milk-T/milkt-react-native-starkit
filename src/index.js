@@ -4,7 +4,8 @@ import dva from 'dva/mobile'
 import { persistStore, autoRehydrate } from 'redux-persist'
 
 import { registerModels } from './models'
-import Router from './router'
+import Main from './containers/Main'
+// import Router from './router'
 
 const app = dva({
   initialState: {},
@@ -14,6 +15,10 @@ const app = dva({
   },
 })
 registerModels(app)
+// app.router(() => <Router />)
+const Router = StackNavigator({
+  Main: { screen: Main },
+});
 app.router(() => <Router />)
 const App = app.start()
 

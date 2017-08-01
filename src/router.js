@@ -13,6 +13,7 @@ import Login from './containers/Login'
 import Home from './containers/Home'
 import Account from './containers/Account'
 import Detail from './containers/Detail'
+import Main from './containers/Main'
 
 const HomeNavigator = TabNavigator(
   {

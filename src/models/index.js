@@ -1,7 +1,7 @@
 import appModel from './app'
-import router from './router'
+import routerModel from './router'
 
 export function registerModels(app) {
   app.model(appModel)
-  app.model(router)
+  app.model(routerModel)
 }
