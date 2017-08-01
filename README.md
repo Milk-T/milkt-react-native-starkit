@@ -228,3 +228,7 @@ If this causes problems for you, you may want to try changing your terminal's co
 原有的router方案在native环境中不能被支持，为了解决类似的问题引入了`react-navigation`作为router的替代方案
 
 关于`react-navigation`的内容参考文档和网站 - [https://reactnavigation.org/](https://reactnavigation.org/)
+
+## NativeBase
+
+关于NativeBase的文档参考这里[nativebase.io](https://docs.nativebase.io/Components.html)
