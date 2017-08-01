@@ -3,8 +3,8 @@ import { AppRegistry, AsyncStorage } from 'react-native'
 import dva from 'dva/mobile'
 import { persistStore, autoRehydrate } from 'redux-persist'
 
-import { registerModels } from './src/models'
-import Router from './src/router'
+import { registerModels } from './models'
+import Router from './router'
 
 const app = dva({
   initialState: {},
